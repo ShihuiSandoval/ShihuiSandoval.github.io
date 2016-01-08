@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>day_3</title>
+    <script src="libraries/p5.js" type="text/javascript"></script>
+    <script src="libraries/jquery-2.1.4.min.js" type="text/javascript"></script>
+    <script src="libraries/p5.dom.js" type="text/javascript"></script>
+    <script src="libraries/p5.sound.js" type="text/javascript"></script>
+
+    <script src="sketch.js" type="text/javascript"></script>
+
+    <style> body {padding: 0; margin: 0;} canvas {vertical-align: top;} </style>
+  </head>
+  <body>
+    <script>
+      $('body').bind('touchmove', function(e){
+        e.preventDefault();
+      })
+      $('body').bind('touchstart', function(e){
+        e.preventDefault();
+      })
+    </script>
+  </body>
+</html>
