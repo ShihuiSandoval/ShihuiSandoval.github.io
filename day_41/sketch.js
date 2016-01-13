@@ -11,6 +11,7 @@ function setup() {
 }
 
 function draw() {
+  if(touch){
   colorMode(HSB);
  stroke(c%255,68,100,0.5);
   line(mouseX,mouseY,i,height);
@@ -29,7 +30,7 @@ function draw() {
   ellipse(mouseX,mouseY,3,3);
   c+=1;
 }
-
+}
 function reset(){
   clear();
     background(0);
