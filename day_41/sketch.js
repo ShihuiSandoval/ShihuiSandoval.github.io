@@ -6,6 +6,7 @@ var touch = false;
 var touchTime = 0;
 
 function setup() {
+  noCursor();
   createCanvas(window.innerWidth,window.innerHeight);
   background(0);
 }
